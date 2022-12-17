@@ -119,7 +119,8 @@ h1{
 #LHS_container_bk_last input{
     width: 350px;
     height: 44px;
-    border: 1px solid white;
+    border: 0;
+    outline: none;
     text-overflow: ellipsis;
     font-size: 16px;
     padding-left: 8px;
@@ -232,10 +233,11 @@ h1{
     margin: 25px 0px;
 }
 #medi_para_id p{
-    color: rgb(154, 154, 154);
-    font-size: 15px;
+    color: #8897a2;
+    margin-bottom: 5px;
+    font-size: 14px;
     font-weight: 100;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     /* margin-bottom: 35px; */
 }
 #medi_para_id ul{

@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Inter, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1200px;
 }
 #nav_main_div{
     display: flex;
@@ -15,6 +18,9 @@
     position: fixed;
     z-index: 1;
     background-color: white;
+}
+#logo{
+    cursor: pointer;
 }
 #nav_main_first svg{
     margin-left: 20px;
@@ -75,13 +81,14 @@
     display: flex;
     align-items: center;
 }
-#loc a p:hover{
-    text-decoration:dashed;
-}
 #loc p{
     font-size: 14px;
     color: rgb(90, 87, 87);
     margin-left: 10px;
+}
+#loc a p:hover{
+    text-decoration:underline;
+    color: #10847E;
 }
 #nav_sub{
     padding: 13px;
@@ -94,12 +101,13 @@
     z-index: 1;
     background-color: white;
 }
-#nav_sub div{
+#nav_sub #nav_sub_2{
     width: 61%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
+
 #nav_sub div a{
     text-decoration: none;
     font-size: 15px;
@@ -109,7 +117,6 @@
     color: #15ACA5;
 }
 #top_section{
-    /* margin-top: 50px; */
     padding-top: 165px;
     padding-bottom: 30px;
 }
@@ -140,19 +147,24 @@
 }
 #top_section #search{
     border-radius: 29px;
-    border: 1px solid rgb(178, 174, 174);
+    border: 1px solid rgb(209, 206, 206);
     margin-top: 15px;
-    /* margin-bottom: 35px; */
     padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 .head_search input{
     border: none;
-    width: 80%;
+    width: 85%;
     margin: auto;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    padding: 4px 10px;
 }
 #srBtn {
     border-radius: 30px;
-    padding: 9px 15px;
+    padding: 10px 14px;
     color: white;
     font-weight: 700;
     border: none;
@@ -166,20 +178,19 @@
     margin-left: 40px;
 }
 #category div{
-    /* width: 12%; */
     text-align: center;
     cursor: pointer;
     margin-right: 38px;
     padding: 15px 20px;
     border-radius: 10px;
-    margin-bottom: 27px;
+    /* margin-bottom: 27px; */
 }
 #category div:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #category div img{
-    width: 104px;
-    border-bottom: 1px solid rgb(165, 159, 159);
+    width: 90px;
+    border-bottom: 1px solid rgb(211, 206, 206);
 }
 #category div .nam{
     font-size: 15px;
@@ -211,8 +222,9 @@
     margin-left: 40px;
     margin-top: 20px;
     color: #10847E;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 50px;
+    background-color: #10847E;
 }
 #labTest{
     margin-left: 40px;
