@@ -1,0 +1,29 @@
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+#page_location{
+    padding-top: 145px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 40px;
+}
+#page_location a{
+    text-decoration: none;
+    color: #13918b;
+    font-weight: 700;
+}
+#loaded_cart_page{
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#lhs_cart_div{
+    border: 1px solid;
+    width: 60%;
+}
+#rhs_cart_div{
+    border: 1px solid;
+    width: 35%;
+}

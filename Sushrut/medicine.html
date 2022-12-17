@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medicine.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Medicines</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <div id="nav_main_div">
+                <div id="nav_main_first">
+                    <div>
+                            <svg style="width: 35px; fill:none; margin: 0px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="c-cZuCZG c-cZuCZG-gtZKQU-size-large c-cZuCZG-dmsdwv-rotate-up c-cZuCZG-ilgongE-css"><path xmlns="http://www.w3.org/2000/svg" d="M14.1 5.99999H20M14.1 12H20M4 18H20M5.15 5.99999H8.73C9.36513 5.99999 9.88 6.51486 9.88 7.14999V10.79C9.88 11.4251 9.36513 11.94 8.73 11.94H5.15C4.51487 11.94 4 11.4251 4 10.79V7.14999C4 6.51486 4.51487 5.99999 5.15 5.99999Z" stroke="#30363C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <div class="c-cZuCZG" id="logo">
+                            <a href="Index.html"><img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0" alt=""></a>
+                        </div>
+                        <div class="c-cZuCZG" id="midBar">
+                            <p>|</p>
+                            <p>|</p>
+                        </div>
+                        <div class="c-cZuCZG" id="location">
+                            <h5>
+                                <p id="delivery">Delivery to</p>
+                                <p id="pin">700084 Kolkata</p>
+                            </h5>
+                        </div>
+                        <div class="c-cZuCZG" id=""></div>
+                    </div>
+                    <div id="nav_main_second">
+                        <div id="dwnlBtn">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="c-cZuCZG c-cZuCZG-gtZKQU-size-large c-cZuCZG-dmsdwv-rotate-up c-cZuCZG-icDNilq-css"><path d="M17.5 2H7.5C6.39543 2 5.5 2.89543 5.5 4V20C5.5 21.1046 6.39543 22 7.5 22H17.5C18.6046 22 19.5 21.1046 19.5 20V4C19.5 2.89543 18.6046 2 17.5 2Z" stroke="#30363C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.5 18H12.51" stroke="#30363C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </a>
+                            <p>Download App</p>
+                        </div>
+                        <div id="loc">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="c-cZuCZG c-cZuCZG-gtZKQU-size-large c-cZuCZG-dmsdwv-rotate-up c-cZuCZG-ieMTBas-css"><path d="M12 10.04C13.6679 10.04 15.02 8.68789 15.02 7.01999C15.02 5.35209 13.6679 3.99999 12 3.99999C10.3321 3.99999 8.98003 5.35209 8.98003 7.01999C8.98003 8.68789 10.3321 10.04 12 10.04Z" stroke="#30363C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.12002 20H17.88C18.1558 20.0026 18.4294 19.9509 18.6852 19.8478C18.941 19.7447 19.174 19.5922 19.3708 19.3991C19.5677 19.2059 19.7246 18.9759 19.8325 18.7221C19.9405 18.4683 19.9974 18.1958 20 17.92V16.57C20 15.76 19 15 17.67 14.37C15.8894 13.4975 13.9329 13.044 11.95 13.044C9.96718 13.044 8.01061 13.4975 6.23002 14.37C4.97002 15 4.00002 15.74 4.00002 16.54V17.89C3.99869 18.1683 4.05268 18.4441 4.15887 18.7013C4.26506 18.9586 4.42133 19.1922 4.61859 19.3885C4.81584 19.5848 5.05016 19.74 5.30792 19.845C5.56567 19.95 5.84172 20.0026 6.12002 20Z" stroke="#30363C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <p>Hello, Log in</p>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="c-cZuCZG c-cZuCZG-gtZKQU-size-large c-cZuCZG-dmsdwv-rotate-up c-cZuCZG-hECRKn-type-rounded c-cZuCZG-ibKzAFS-css"><path d="M10.6737 5.09702C10.968 3.63433 13.032 3.63433 13.3263 5.09702C13.5281 6.09956 14.7041 6.53299 15.495 5.89632C16.6489 4.96744 18.23 6.31092 17.527 7.62301C17.0452 8.52232 17.6709 9.61981 18.6809 9.64692C20.1545 9.68647 20.5129 11.7448 19.1416 12.2924C18.2016 12.6676 17.9843 13.9157 18.7408 14.5939C19.8446 15.5833 18.8126 17.3934 17.4145 16.9202C16.4562 16.5959 15.4976 17.4105 15.6466 18.4224C15.864 19.8988 13.9245 20.6137 13.1539 19.3412C12.6257 18.469 11.3743 18.469 10.8461 19.3412C10.0755 20.6137 8.13597 19.8988 8.35339 18.4224C8.50241 17.4105 7.54375 16.5959 6.5855 16.9202C5.18743 17.3934 4.15544 15.5833 5.25917 14.5939C6.01567 13.9157 5.79835 12.6676 4.85842 12.2924C3.48706 11.7448 3.84547 9.68647 5.31905 9.64692C6.32905 9.61981 6.95478 8.52232 6.47296 7.62301C5.76999 6.31092 7.35109 4.96744 8.50503 5.89632C9.29594 6.53299 10.4719 6.09955 10.6737 5.09702Z" stroke="#30363C" stroke-width="1.4"></path><path d="M9.80078 9.69922V9.69922" stroke="#30363C" stroke-width="2" stroke-linecap="round"></path><path d="M14.4014 14.3008V14.3008" stroke="#30363C" stroke-width="2" stroke-linecap="round"></path><path d="M9.30581 13.8042C9.03244 14.0776 9.03244 14.5208 9.30581 14.7942C9.57917 15.0676 10.0224 15.0676 10.2958 14.7942L9.30581 13.8042ZM14.8958 10.1942C15.1691 9.92083 15.1691 9.47761 14.8958 9.20424C14.6224 8.93088 14.1792 8.93088 13.9058 9.20424L14.8958 10.1942ZM10.2958 14.7942L14.8958 10.1942L13.9058 9.20424L9.30581 13.8042L10.2958 14.7942Z" fill="#30363C"></path></svg>
+                                <p>Offers</p>
+                            </a>
+                            <a href="#">
+                                <i class="fa-light fa-cart-shopping"></i>
+                                <p>Cart</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav_sub">
+                    <div>
+                        <a href="medicine.html">Medicine</a>
+                        <a href="#">Lab Tests</a>
+                        <a href="#">Healthcare</a>
+                        <a href="#">Surgeries</a>
+                        <a href="#">Health Blogs</a>
+                        <a href="#">PLUS</a>
+                        <a href="#">Offers</a>
+                        <a href="#">Value Store</a>
+                    </div>
+                </div>
+        </nav>
+        <main id="content_wraper">
+            <div id="home_txt">
+                <a href="Index.html">Home&nbsp;</a>
+                <p>&nbsp; > &nbsp;&nbsp;Order Medicines Online</p>
+            </div>
+            <div id="body_all">
+                <div class="section_all">
+                    <div class="LHS_container">
+                        <h1>Order Medicines Online</h1>
+                        <div id="LHS_container_bk">
+                            <div id="LHS_container_bk_first">
+                                <p>© &nbsp; Flat 15% Off</p>
+                                <p>© &nbsp; 1 Lakh+ Products</p>
+                                <p>© &nbsp; Easy Returns</p>
+                            </div>
+                            <div>
+                                <h4>Search for Medicines / Healthcare Products</h4>
+                            </div>
+                            <div id="LHS_container_bk_last">
+                                <div id="pin_loc"><span>700084, Kolkata</span></div>|
+                                <div><input type="text" placeholder="Search medicine"></div>
+                                <div class="search_logo">
+                                        <svg width="25" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.4895 15.5071C16.2159 15.2339 15.7727 15.2344 15.4996 15.508C15.2264 15.7816 15.2269 16.2248 15.5005 16.4979L16.4895 15.5071ZM19.5055 20.4954C19.7791 20.7685 20.2223 20.7681 20.4954 20.4945C20.7685 20.2209 20.7681 19.7777 20.4945 19.5046L19.5055 20.4954ZM8.69953 14.8717C9.03535 15.0632 9.46285 14.9462 9.65437 14.6104C9.8459 14.2745 9.72891 13.847 9.39309 13.6555L8.69953 14.8717ZM8.22704 12.5081C8.03023 12.1754 7.60093 12.0651 7.26818 12.262C6.93542 12.4588 6.82522 12.8881 7.02202 13.2208L8.22704 12.5081ZM15.5005 16.4979L19.5055 20.4954L20.4945 19.5046L16.4895 15.5071L15.5005 16.4979ZM17.3175 10.8957C17.3175 14.3068 14.5038 17.0914 11.0088 17.0914V18.4914C15.2554 18.4914 18.7175 15.1014 18.7175 10.8957H17.3175ZM11.0088 17.0914C7.51375 17.0914 4.7 14.3068 4.7 10.8957H3.3C3.3 15.1014 6.76211 18.4914 11.0088 18.4914V17.0914ZM4.7 10.8957C4.7 7.4846 7.51375 4.7 11.0088 4.7V3.3C6.76211 3.3 3.3 6.69002 3.3 10.8957H4.7ZM11.0088 4.7C14.5038 4.7 17.3175 7.4846 17.3175 10.8957H18.7175C18.7175 6.69002 15.2554 3.3 11.0088 3.3V4.7ZM9.39309 13.6555C8.91098 13.3806 8.50913 12.9851 8.22704 12.5081L7.02202 13.2208C7.42809 13.9074 8.00629 14.4763 8.69953 14.8717L9.39309 13.6555Z" fill="#8897A2"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="RHS_container">
+                        <div id="RHS_1" class="RHS_">
+                            <img src="https://cms-contents.pharmeasy.in/offer/e48df3b2675-Offer_YES.jpg?dim=1024x0" alt="">
+                            <span>Order via Prescription</span>
+                            <button> > </button>
+                        </div>
+                        <div id="RHS_2" class="RHS_">
+                            <div id="like_RHS_1">
+                                <img src="https://cms-contents.pharmeasy.in/offer/e48df3b2675-Offer_YES.jpg?dim=1024x0" alt="">
+                                <span>Don't have a Prescription?</span>
+                                <button> > </button>
+                            </div>
+                            <ul>
+                                <li>Add medicines to your cart.</li>
+                                <li>Select Free Doctor Consultation at checkout.</li>
+                            </ul>
+                            <div id="RHS_container_last">
+                                Or Call on +91 99929 99929 <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="medi_ofr4u_main">
+                    <h3>All Offers</h3>
+                    <div id="ofr_main_ch">
+                        <div class="o4">
+                            <img src="https://cms-contents.pharmeasy.in/offer/e48df3b2675-Offer_YES.jpg?dim=1024x0" alt="">
+                            <p class="ofrP">Flat 25% OFF + FREE Delivery on 3 <span class="ofrS">medicine orders</span></p>
+                        </div>
+                        <div class="o4">
+                            <img src="https://cms-contents.pharmeasy.in/offer/ac04bc614ab-Offer_YES.jpg?dim=1024x0" alt="">
+                            <p class="ofrP">Flat 27% OFF + up to Rs.5000 <span class="ofrS">surprise cashback</span></p>
+                        </div>
+                        <div class="o4">
+                            <img src="https://cms-contents.pharmeasy.in/offer/ac04bc614ab-Offer_YES.jpg?dim=1024x0" alt="">
+                            <p class="ofrP">Flat 27% OFF + up to Rs.5000 <span class="ofrS">surprise cashback</span></p>
+                        </div>
+                        <div class="o4">
+                            <img src="https://cms-contents.pharmeasy.in/offer/ac04bc614ab-Offer_YES.jpg?dim=1024x0" alt="">
+                            <p class="ofrP">Flat 27% OFF + up to Rs.5000 <span class="ofrS">surprise cashback</span></p>
+                        </div>
+                        <div class="o4">
+                            <img src="https://cms-contents.pharmeasy.in/offer/ac04bc614ab-Offer_YES.jpg?dim=1024x0" alt="">
+                            <p class="ofrP">Flat 27% OFF + up to Rs.5000 <span class="ofrS">surprise cashback</span></p>
+                        </div>
+                        <div class="o4 logIn_view_more">
+                            <svg style="width: 16px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 11H5C3.89543 11 3 11.8954 3 13V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V13C21 11.8954 20.1046 11 19 11Z" stroke="#10847E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 11V7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7V11" stroke="#10847E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <br>
+                            <h4>Log in to view more offres</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="medi_bnnr">
+                    <img src="https://consumer-app-images.pharmeasy.in/marketing/comp_50lac.jpg" alt="">
+                    <img src="https://consumer-app-images.pharmeasy.in/marketing/comp_cod.jpg" alt="">
+                    <img src="https://consumer-app-images.pharmeasy.in/marketing/comp_3step.jpg" alt="">
+                    <img src="https://consumer-app-images.pharmeasy.in/marketing/comp_india_covered.jpg" alt="">
+                </div>
+                <div id="medi_say_abt_us">
+                    <h1>What Our Customers have to Say</h1>
+                    <div id="say_abt_us_flex">
+                        <div class="say_abt_us_card">
+                            <h4>Rajarshi Sarkar</h4>
+                            <p>April 22, 2022</p>
+                            <div class="quote">
+                                <p>The app is really wonderful. Being a Product Manager myself, I would say that the User experience (UI/UX) of the app is top notch (easy to use, simple and convenient). Coming to services and delivery, I would say Pharmeasy is doing a tremendous job even during this unprecedented pandemic situation.</p>
+                            </div>
+                        </div>
+                        <div class="say_abt_us_card">
+                            <h4>Darpan Dholakia</h4>
+                            <p>April 23, 2022</p>
+                            <div class="quote">
+                                <p>Best service and app amongst all available. I have been using it for more than 3 years, and even during the pandemic, they have kept their standards high and are delivering the order within 24 hours. Keep up the good work.</p>
+                            </div>
+                        </div>
+                        <div class="say_abt_us_card">
+                            <h4>Lipi Chaudhuri</h4>
+                            <p>April 15, 2022</p>
+                            <div class="quote">
+                                <p>This app is a game changer for me. I am unable to go out always to buy medicinal products. Pharmeasy gives me the last liberty to shop essential healthcare products from home. The app is very user friendly and me being an elderly person do not find any difficulty in using it. They deliver well in time. Thanks😊</p>
+                            </div>
+                        </div>
+                        <div class="say_abt_us_card">
+                            <h4>Tirthankar Das Purkayastha</h4>
+                            <p>April 23, 2022</p>
+                            <div class="quote">
+                                <p>Very good app. Would recommend it to everyone requiring fast and efficient delivery of medicinal products at the doorstep.</p>
+                            </div>
+                        </div>
+                        <div class="say_abt_us_card">
+                            <h4>Debanjan Roy</h4>
+                            <p>April 18, 2022</p>
+                            <div class="quote">
+                                <p>Excellent experience. Pharmeasy has not let it's customers down during lockdown. Thanks team. Great job. The application is also very smooth. And does its job well with an attractive UI and easy to use features. Good job developer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="medi_ex_i"></div>
+                <div id="medi_para_id">
+                    <div class="medi_para">
+                        <h4>India's No. 1 Medicine Delivery App</h4>
+                        <p>The concept of medicine home delivery has been taken to a new level by the PharmEasy online medicine delivery app. You can use the PharmEasy online medicine delivery app to browse through an extensive range of medicines. Each medicine undergoes a 3-step quality check.</p>
+                        <div>
+                            <p>Whatever be your medicine requirement, you are sure to locate it in this online pharmacy. All you have to do then is to add it to your cart and place the order and get your order delivered quickly. India’s beloved online medicine delivery app makes sure that you get your medicines in record time because we know how vital time is in any treatment. Sit back, and we will have all your medical necessities delivered to your doorstep.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="medi_para">
+                        <h4>Online Medicine - Your Online Medical Store in India</h4>
+                        <p>Tired of walking all the way to your local medicine store? Worried that going out is risky during the current times? Order medicines online at PharmEasy, India’s trusted online medicine app. With more than 1 lakh medicines always in stock, you are sure to find what you are looking for, and that too at affordable prices!</p>
+                        <div>
+                            <p>Besides, extremely stringent sanitization norms are followed at your favourite online medical store. PharmEasy takes the safety of customers and employees very seriously.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="medi_para">
+                        <h4>Reasons To Buy Medicine Online From PharmEasy</h4>
+                        <p>Here are a few reasons that will convince you to give online medicine order through the PharmEasy app -</p>
+                        <ul>
+                            <li>1,200+ cities and 20,000+ Pin codes served</li>
+                            <li>Express Delivery</li>
+                            <li>1 Lakh+ medicines available</li>
+                            <li>Cash on delivery option available</li>
+                            <li>Attractive offers</li>
+                            <li>Cashback option through wallet</li>
+                            <li>Stringent quality checks</li>
+                            <li>Garnered the trust of more than 10 million users who have made an online purchase through PharmEasy</li>
+                        </ul>
+                    </div>
+                    <h3>Order Medicines Online</h3>
+                    <div class="medi_para">
+                        <h4>Get 3-Step Quality-checked Medicines</h4>
+                        <p>PharmEasy is a one-stop-shop for all your healthcare needs. We have 1L+ products for you to choose from. Buy medicines online at affordable prices from the comforts of your home in just a few clicks and get them delivered at your doorstep.</p>
+                        <p>The entire process of shopping for medicines is hassle-free and convenient. All you have to do is search for the products you need on our website or app, add to cart and then proceed with the checkout process.</p>
+                        <p>With our scheduled refill reminder, you don’t even need to keep track of your refill dates.</p>
+                        <p>What’s more, <a href=""> we have great offers</a>, with added discounts and massive e-wallet cashbacks on purchasing medicines!</p>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div>
+            <div id="ftr_flex">
+                <div>
+                    <div class="ftr_gap">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Partner with PharmEasy</a>
+                        <a href="#">Sell at PharmEasy</a>
+                    </div>
+                    <div class="ftr_gap">
+                        <h4>Our Services</h4>
+                        <a href="#">Order Medicine</a>
+                        <a href="#">Healthcare Products</a>
+                        <a href="#">Lab Tests</a>
+                        <a href="#">Find Nearest Collection Center</a>
+                        <a href="#">Surgeries</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Featured Categories</h4>
+                    <a href="#">Mega Clear Sale</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                </div>
+                <div>
+                    <div class="ftr_gap">
+                        <h4>Need Help</h4>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                    </div>
+                    <div class="ftr_gap">
+                        <h4>Policy Info</h4>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                        <a href="#">ABC</a>
+                    </div>
+                </div>
+                <div id="flw_us_on">
+                    <h4>Follow us on</h4>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/Instagram.svg?dim=32x0" alt="">
+                        <img src="https://assets.pharmeasy.in/apothecary/images/facebook.svg?dim=32x0" alt="">
+                        <img src="https://assets.pharmeasy.in/apothecary/images/Youtube.svg?dim=32x0" alt="">
+                        <img src="https://assets.pharmeasy.in/apothecary/images/Twitter.svg?dim=32x0" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="pym_prtnr">
+                <span>Our Payment Partners</span>
+                <div id="end_flex">
+                    <div>
+                        <img id="gpay" src="https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1024x0" alt="">
+                        <img id="paytm" src="https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1024x0" alt="">
+                        <img id="phone" src="https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1024x0" alt="">
+                        <img id="ama" src="https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1024x0" alt="">
+                        <img id="mobi" src="https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1024x0" alt="">
+                        <img id="m" src="https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1024x0" alt="">
+                        <img id="RB" src="https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1024x0" alt="">
+                        <img id="RY" src="https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1024x0" alt="">
+                        <img id="visa" src="https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1024x0" alt="">
+                        <img id="rupay" src="https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1024x0" alt="">
+                    </div>
+                    <div>
+                        <span class="c-kkmdlQ c-kkmdlQ-gatHuX-structure-captionRegular c-kkmdlQ-dYJjti-weight-regular c-kkmdlQ-euWHqW-structure-body2 c-kkmdlQ-ifKBBuS-css">© <!-- -->2022<!-- --> PharmEasy. All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

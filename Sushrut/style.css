@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Inter, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1200px;
 }
 #nav_main_div{
     display: flex;
@@ -13,7 +16,11 @@
     width: 100%;
     margin: auto;
     position: fixed;
+    z-index: 1;
     background-color: white;
+}
+#logo{
+    cursor: pointer;
 }
 #nav_main_first svg{
     margin-left: 20px;
@@ -74,13 +81,14 @@
     display: flex;
     align-items: center;
 }
-#loc a p:hover{
-    text-decoration:dashed;
-}
 #loc p{
     font-size: 14px;
     color: rgb(90, 87, 87);
     margin-left: 10px;
+}
+#loc a p:hover{
+    text-decoration:underline;
+    color: #10847E;
 }
 #nav_sub{
     padding: 13px;
@@ -90,14 +98,16 @@
     margin: auto;
     margin-top: 70px;
     position:fixed;
+    z-index: 1;
     background-color: white;
 }
-#nav_sub div{
+#nav_sub #nav_sub_2{
     width: 61%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
+
 #nav_sub div a{
     text-decoration: none;
     font-size: 15px;
@@ -107,7 +117,6 @@
     color: #15ACA5;
 }
 #top_section{
-    /* margin-top: 50px; */
     padding-top: 165px;
     padding-bottom: 30px;
 }
@@ -138,19 +147,24 @@
 }
 #top_section #search{
     border-radius: 29px;
-    border: 1px solid rgb(178, 174, 174);
+    border: 1px solid rgb(209, 206, 206);
     margin-top: 15px;
-    /* margin-bottom: 35px; */
     padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 .head_search input{
     border: none;
-    width: 80%;
+    width: 85%;
     margin: auto;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    padding: 4px 10px;
 }
 #srBtn {
     border-radius: 30px;
-    padding: 9px 15px;
+    padding: 10px 14px;
     color: white;
     font-weight: 700;
     border: none;
@@ -159,16 +173,24 @@
 }
 #category{
     display: flex;
-    width: 95%;
-    margin: 30px auto;
+    /* width: 95%; */
+    margin-top: 34px;
+    margin-left: 40px;
 }
 #category div{
-    width: 12%;
     text-align: center;
+    cursor: pointer;
+    margin-right: 38px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    /* margin-bottom: 27px; */
+}
+#category div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #category div img{
-    width: 70%;
-    border-bottom: 1px solid rgb(165, 159, 159);
+    width: 90px;
+    border-bottom: 1px solid rgb(211, 206, 206);
 }
 #category div .nam{
     font-size: 15px;
@@ -200,14 +222,15 @@
     margin-left: 40px;
     margin-top: 20px;
     color: #10847E;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 50px;
+    background-color: #10847E;
 }
 #labTest{
     margin-left: 40px;
 }
 h1{
-    color: rgb(61, 61, 61);
+    color: #4f585e;
     font-weight: 600;
     font-size: 25px;
 }
@@ -233,11 +256,13 @@ h1{
 #ofr4u_main{
     margin-left: 40px;
     margin-top: 60px;
+    overflow: hidden;
 }
 #ofr_main_ch{
     display: flex;
     box-sizing: border-box;
     margin-top: 30px;
+    overflow: hidden;
 }
 #ofr4u_main .o4{
     box-sizing: border-box;
@@ -249,6 +274,7 @@ h1{
     margin-right: 20px;
     background-color: rgb(247, 243, 243);
     border-radius: 7px;
+    overflow: hidden;
 }
 .ofrP{
     font-size: 15px;
@@ -418,6 +444,65 @@ h1{
 }
 #new_launch_flex .new_launch_cards h4 p{
     color: #F47779;
+}
+#plus_member_bnnr{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 40px;
+    background-image: linear-gradient(rgb(246, 64, 155), rgb(252, 35, 252));
+}
+#plus_member_bnnr .plus_flex{
+    width: 350px;
+    color: white;
+    margin-right: 38px;
+}
+#plus_member_bnnr .plus_flex:nth-child(2){
+    width: 550px;
+    font-size: 15px;
+    
+}
+#plus_member_bnnr .plus_flex:nth-child(2) div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    height: 70%;
+    line-height: 1.5rem;
+    justify-content: space-between;
+}
+#plus_member_bnnr h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#plus_member_bnnr h3+p{
+    font-size: 17px;
+    color: rgb(206, 206, 206);
+    font-weight: 600;
+    margin-top: 10px;
+}
+#plus_member_bnnr img{
+    padding-left: 50px;
+}
+#plus_member_bnnr button{
+    border-radius: 8px;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(226, 163, 6);
+    border: none;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#plus_member_bnnr button span{
+    padding: 2px;
+    background-color: white;
+    border-radius: 45%;
+    color: rgb(226, 163, 6);
+    font-size: 11px;
 }
 #shop_by_con{
     margin-left: 40px;
@@ -617,23 +702,29 @@ h1{
 #say_abt_us_flex .say_abt_us_card{
     width: 580px;
     height: 580px;
-    margin-right: 25px;
-    
+    margin-right: 45px;
+}
+#say_abt_us_flex .say_abt_us_card p{
+    margin-top: 8px;
+    color: gray;
+}
+#say_abt_us_flex .say_abt_us_card h4{
+    color: rgb(77, 77, 77);
 }
 #say_abt_us_flex .say_abt_us_card .quote{
     background-color: #F2FFF8;
     margin-top: 20px;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid rgb(215, 250, 248);
-    width: 330px;
-    height: 330px;
+    width: 360px;
+    height: 350px;
     border-radius: 11px;
     line-height: 1.8rem;
     font-size: 17px;
     color: gray;
 }
 #ex_i{
-    margin-top: 75px;
+    margin-top: -145px;
     margin-left: 40px;
 }
 #ex_i .ex_i_ch{
@@ -668,17 +759,16 @@ h1{
 footer{
     background-color: #EEF4FF;
     margin-top: 75px;
-    padding: 60px 40px;
+    padding: 80px 50px;
 }
 #ftr_flex{
     display: flex;
-    margin-right: 50px;
+    justify-content: space-between;
 }
 #ftr_flex div{
     display: flex;
     flex-direction: column;
     line-height: 2rem;
-    margin-right: 70px;
 }
 #ftr_flex .ftr_gap{
     margin-bottom: 27px;
@@ -687,8 +777,21 @@ footer{
     text-decoration: none;
     color: gray;
     font-size: 14px;
+    cursor: pointer;
 }#ftr_flex div h4{
+    font-size: 18px;
     color: rgb(73, 73, 73);
+}
+#ftr_flex #flw_us_on div{
+    margin-top: 15px;
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#ftr_flex #flw_us_on div img{
+    width: 35px;
 }
 #pym_prtnr{
     margin-top: 35px;
@@ -740,4 +843,5 @@ width: 30px;
 }
 #rupay{
     width: 70px;
+    
 }
