@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    max-width: 1200px;
-}
 #nav_main_div{
     display: flex;
     box-sizing: border-box;
