@@ -14,14 +14,12 @@ main{
     font-weight: 700;
 }
 #loaded_cart_page{
-    /* border: 1px solid; */
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 #lhs_cart_div{
     width: 59%;
-    /* border: 1px solid; */
 }
 #lhs_cart_div #lhs_cart_in_1{
     border: 1px solid rgb(210, 210, 210);
@@ -73,7 +71,6 @@ main{
     overflow: hidden;
 }
 #added_item_display div button{
-    /* display: block; */
     font-size: 13px;
     padding: 4px;
     border-radius: 5px;
@@ -82,7 +79,6 @@ main{
     border: 1px solid rgb(168, 168, 168);
 }
 #rhs_cart_div{
-    /* border: 1px solid; */
     width: 38%;
 }
 #rhs_1{

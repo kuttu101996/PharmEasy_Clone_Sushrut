@@ -367,6 +367,35 @@ h1{
     color: white;
     background-color: #10847E;
 }
+#order_w_pres_2{
+    width: 50%;
+    padding: 15px 35px;
+}
+#order_w_pres_2 h5{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+#order_w_pres_2 #grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+    margin-top: 19px;
+}
+#order_w_pres_2 #grid div{
+    display: flex;
+    font-size: 14px;
+    color: gray;
+}
+#order_w_pres_2 #grid div .number{
+    padding: 7px 10px;
+    margin-right: 8px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #c8dbfc;
+    font-weight: 800;
+    font-size: 15px;
+    color: #3f86ff;
+}
 #shop_category_main{
     margin-left: 40px;
     margin-top: 75px;
@@ -841,8 +870,6 @@ width: 30px;
 #rupay{
     width: 70px;
 }
-
-
 #Medicines_with_add_Btn{
     margin-top: 70px;
     margin-left: 40px;
@@ -851,13 +878,12 @@ width: 30px;
 #Medicines_with_add_Btn div{
     padding: 10px 19px;
     line-height: 1.7rem;
-    margin-right: 20px;
-    /* width: 260px; */
-    /* height: 200px; */
-    /* overflow: hidden; */
+    margin-right: 30px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 12px;
 }
 #Medicines_with_add_Btn img{
     width: 130px;
     border-radius: 8px;
 }
+/* #Medicines_with_add_Btn */

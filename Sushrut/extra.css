@@ -35,9 +35,9 @@
     background-color: white;
     padding: 5px;
     border-radius: 50%;
-    z-index: 4;
+    /* z-index: 4; */
     width: 30px;
-    margin-right: -25px;
+    /* margin-right: -25px; */
 }
 #login_page_last{
     padding: 25px 40px;
@@ -107,4 +107,13 @@
     color: rgb(90, 87, 87);
     padding: 8px 10px;
     font-size: 14px;
+}
+#Medicines_with_add_Btn button{
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(255, 81, 81);
+    color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: 5px;
 }
