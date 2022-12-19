@@ -437,7 +437,7 @@ h1{
     font-weight: 600;
 }
 #new_launch_flex .new_launch_cards h4{
-    color: gray;
+    color: rgb(80, 80, 80);
 }
 #new_launch_flex .new_launch_cards h4 p{
     color: #F47779;
@@ -840,5 +840,24 @@ width: 30px;
 }
 #rupay{
     width: 70px;
-    
+}
+
+
+#Medicines_with_add_Btn{
+    margin-top: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+#Medicines_with_add_Btn div{
+    padding: 10px 19px;
+    line-height: 1.7rem;
+    margin-right: 20px;
+    /* width: 260px; */
+    /* height: 200px; */
+    /* overflow: hidden; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#Medicines_with_add_Btn img{
+    width: 130px;
+    border-radius: 8px;
 }

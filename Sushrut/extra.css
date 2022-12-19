@@ -1,14 +1,15 @@
 #full_login_page{
-    width: 100%;
+    width: 0%;
     height: 100%;
+    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.667);
     display: flex;
     justify-content: end;
     z-index: 2;
     position: fixed;
+    transition: 0.4s ease-in-out;
 }
 #login_page{
-
     position: fixed;
     width: 35%;
     height: 100%;
